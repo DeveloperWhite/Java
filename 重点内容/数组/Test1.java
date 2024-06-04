@@ -1,7 +1,4 @@
 package 数组;
-
-import java.security.Principal;
-
 //数组
 /*
 1.JAVA语言中的数组是一种引用数据类型，不属于基本数据类型，数组的父类是Object类
