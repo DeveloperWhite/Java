@@ -23,7 +23,7 @@ public class Test4 {
         System.out.println(k);
         /*for(int m =0;m<10;m++){
         }
-        System.out.println(m);
+        数组.System.out.println(m);
         m访问不了，因为m的作用域是for循环之内
          */
         int n;

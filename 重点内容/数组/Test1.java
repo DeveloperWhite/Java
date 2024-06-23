@@ -47,7 +47,7 @@ public class Test1 {
     for(int i=0;i<a1.length;i++){
       System.out.println(a1[i]);
     }
-//    System.out.println(a1[6]);会出现一个著名的异常,数组下标越界异常
+//    数组.System.out.println(a1[6]);会出现一个著名的异常,数组下标越界异常
 //    从最后一个元素遍历到第一个元素
     for(int i= a1.length-1;i>=0;i--){
       System.out.println(a1[i]);
@@ -74,29 +74,10 @@ public class Test1 {
 //    printArray(new int[]{100,200,300});
 //    动态：
     printArray(new int[6]);
-//    查看main方法中的String args[]数组有什么用，数组长度默认为0
-    System.out.println("JVM给传递过来的String数组参数的数组长度："+args.length);
-    //  创建一个长度为0的String数组对象，并输出他的长度
-    String[] strs=new String[0];
-//    以下代码表示数组对象创建了，但数组中没有任何数据
-//    String[] strs={};
-    printLength(strs);
-//    例如这样运行，java Test1 abc xyz def ，这个时候JVM就会自动将abc def xyz 通过空格的方式分离，然后自动放到String数组中，主要用来收集用户参数
-//    main方法上面的String数组主要用来接受用户输入参数
-    //    遍历数组输入main中String数组
-    for(int i=0;i< args.length;i++){
-      System.out.println(args[i]);
-    }
   }
-
   public static void printArray(int[] a4){
     for(int i=0;i<a4.length;i++){
       System.out.println(a4[i]);
     }
   }
-  //打印String数组长度的方法
-  public static void printLength(String [] args){
-    System.out.println(args.length);
-  }
-
 }

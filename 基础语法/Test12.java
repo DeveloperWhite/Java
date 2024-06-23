@@ -1,3 +1,5 @@
+
+
 public class Test12 {
     //类体：建议在一个Java文件中只定义一个class，即之只定义一个类名
     //方法

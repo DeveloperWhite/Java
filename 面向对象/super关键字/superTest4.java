@@ -12,9 +12,9 @@ public class superTest4 extends Object{
   public void doSome(){
     //输出引用的时候会自动调用引用的tcoString()方法（若没有继承则自动继承Object类中的方法）
     System.out.println(this);
-    //与这句一样：System.out.println(this.toString());
+    //与这句一样：数组.System.out.println(this.toString());
     //superTest4@10f87f48输出类名+内存地址
     /*编译报错，需要在super后加个.
-    System.out.println(super);*/
+    数组.System.out.println(super);*/
   }
 }

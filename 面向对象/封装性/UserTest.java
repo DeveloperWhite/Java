@@ -31,10 +31,10 @@ public class UserTest {
         //读取年龄值
         /*
         age属性私有化后访问不了
-        System.out.println(s.age);
+        数组.System.out.println(s.age);
         //修改年龄值
         s.age=15;
-        System.out.println(s.age);
+        数组.System.out.println(s.age);
          */
         //修改
         s.setAge(160);

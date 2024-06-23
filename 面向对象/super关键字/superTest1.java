@@ -34,7 +34,7 @@ class A{
 class B extends A{
 /*  public B(){
     super();
-    System.out.println("B类中");
+    数组.System.out.println("B类中");
   }*/
   public B(){
     super(123);

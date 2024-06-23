@@ -1,3 +1,5 @@
+
+
 public class Test10 {
     //运算符
     /*
@@ -51,8 +53,8 @@ public class Test10 {
         /*
         int m=100;
         int b=m++;//先把m的值赋给b在对m做++运算
-        System.out.println(m);//101
-        System.out.println(b);//100
+        数组.System.out.println(m);//101
+        数组.System.out.println(b);//100
          */
         //++m
         int m=100;
@@ -83,8 +85,8 @@ public class Test10 {
         int y=8;
         /*
         逻辑与：比较执着，不管真假，前后必须执行完
-        System.out.println(x<y&++x<y);
-        System.out.println(x);//11
+        数组.System.out.println(x<y&++x<y);
+        数组.System.out.println(x);//11
          */
         //短路与：比较智能，看到第一个表达式为假，后一个表达式不执行，直接短路
         System.out.println(x<y&&++x<y);

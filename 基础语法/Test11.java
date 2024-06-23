@@ -1,6 +1,4 @@
-import java.beans.JavaBean;
-import java.sql.SQLOutput;
-import java.util.Scanner;
+
 
 public class Test11 {
     //控制语句

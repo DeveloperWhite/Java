@@ -64,7 +64,7 @@ public class Test1 {
     myTime c=new myTime(1970,8,22);
     String c1=c.toString();
     //未重写toString()方法前输出默认输出：类名@对象的内存地址转换为十六进制的形式
-    //System.out.println(c1);结果：myTime@b4c966a
+    //数组.System.out.println(c1);结果：myTime@b4c966a
     //我希望看到一个具体地日期字符串，则需要重写toString（）方法
     System.out.println(c1);//1970年8月22日
     //判断两个基本数据类型的数据是否相等直接使用==就行，这里的双等号保存的是保存的数据100
@@ -78,7 +78,7 @@ public class Test1 {
     myTime t1=new myTime(2008,8,8);
     System.out.println(t==t1);//false，比较的是对象的内存地址
     //重写equals方法之前调用默认equals方法
-//    System.out.println(t.equals(t1));//false，因为运用的还是==相等
+//    数组.System.out.println(t.equals(t1));//false，因为运用的还是==相等
     //重写后的equals方法
     System.out.println(t.equals(t1));//true
     //再创建一个对象

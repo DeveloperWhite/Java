@@ -40,7 +40,7 @@ public class Student {
     引用数据类型：
     String
     student
-    System
+    数组.System
     user
     customer
     Product
