@@ -1,4 +1,4 @@
-package 常用类.String;
+    package 常用类.String;
 
 /*String类中的常见构造方法和方法*/
 public class Test4 {
@@ -83,8 +83,26 @@ public class Test4 {
 //    去除字符串前后空白，中间空白去不了，防止输入登录界面，用户名或密码时出现空白
     System.out.println("        Hello          word           ".trim());
 //    String中只有一个方法是静态的，不需要new对象，上面没有new对象是因为字符串就是对象，valueOf将非字符串转化成字符串
-    String str=String.valueOf(100);
+    String str=String.valueOf(3.14);
     System.out.println(str);
-
+    //     这个静态的value方法，参数是一个对象时，会调用toString方法，将对象转化为字符串
+    //这里调用obj中没有重写的toString方法，输出的是对象的内存地址 ，下面重写了toString方法，输出的是自定义的toString方法  
+    String ss=String.valueOf(new customer());
+    System.out.println(ss);
+    //研究下println底层的原理
+    System.out.println(100); 
+    System.out.println(3.14);
+    System.out.println(true);
+    //首先println方法会调用String.valueOf方法，其实调用obj.toString方法，将对象转化为字符串，然后调用print方法，将字符串输出
+    Object obj=new Object();
+    //实际上这边obj自动调用了toString方法，将对象转化为字符串
+    //本质上println这个方法在输出任何数据时，都会调用String.valueOf方法，将对象转化为字符串
+    System.out.println(obj);
   }
+}
+class customer{
+    //重写toString方法
+    public String toString(){
+        return "我是自定义的toString方法";
+    }
 }
