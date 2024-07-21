@@ -90,7 +90,6 @@ public class Test4 {
     String ss=String.valueOf(new customer());
     System.out.println(ss);
     //研究下println底层的原理
-    System.out.println(100); 
     System.out.println(3.14);
     System.out.println(true);
     //首先println方法会调用String.valueOf方法，其实调用obj.toString方法，将对象转化为字符串，然后调用print方法，将字符串输出
