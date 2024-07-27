@@ -1,7 +1,5 @@
 package 常用类.StringBuffer;
 
-import java.io.StringBufferInputStream;
-
 // 如果以后要进行大量的字符串拼接,用加号会创建大量字符串对像，建议使用StringBuffer或者是StringBuilder
 // java.lang.StringBuffer;
 // java.lang.StringBuilder;
