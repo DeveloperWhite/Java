@@ -21,6 +21,17 @@ public class Test2 {
         // 下面是指定初始化容量的StringBuffer对象(字符串缓冲区对象)
         StringBuffer sb=new StringBuffer(100);
         //StringBuilder方法
+        //初始化容量是16
+        StringBuilder sb1=new StringBuilder();
+        sb1.append("a");
+        sb1.append("b");
+        sb1.append(true);
+        //StringBuffer和StringBuilder的区别
+        // StringBuffer是线程安全的，StringBuilder是非线程安全的
+        // StringBuffer中的方法中有synchronized关键字修饰，表示是线程安全的
+        //StringBuilder中的方法没有synchronized关键字修饰，表示是非线程安全的
+        
+
         
            
          
