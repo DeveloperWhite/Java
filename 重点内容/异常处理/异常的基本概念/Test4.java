@@ -13,7 +13,7 @@ public class Test4 {
     //定义一个dosome方法，使用throws关键字抛出异常
     //在doSome方法执行的过程中，会出现ClassNotFoundException异常，又叫类找不到异常
     //这个异常父类是Exception，属于编译时异常
-    public static void doSome() throws ClassNotFoundException(){
+    public static void doSome() throws ClassNotFoundException{
         System.out.println("doSome方法执行了");
     }
 }
