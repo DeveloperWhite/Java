@@ -8,7 +8,7 @@ public class Test4 {
         //如果不处理异常，编译器会报错
         //doSome方法之所以报错，因为doSome方法声明的位置上用了throws ClassNotFoundException
         //而ClassNotFoundException是编译时异常，所以编译器会报错
-        doSome();
+        //doSome();
     }
     //定义一个dosome方法，使用throws关键字抛出异常
     //在doSome方法执行的过程中，会出现ClassNotFoundException异常，又叫类找不到异常
